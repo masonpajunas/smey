@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
       opacity: 0,
       yPercent: 100,
       duration: 0.5,
-      ease: "back.out(1)",
+      ease: "power2.out",
       stagger: { amount: 0.2 },
     },
     "75%"
