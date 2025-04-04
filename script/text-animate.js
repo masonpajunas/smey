@@ -55,6 +55,19 @@ document.addEventListener("DOMContentLoaded", () => {
     "75%"
   );
 
+    animateText(
+    "[words-hero]",
+    ".word",
+    {
+      opacity: 0,
+      yPercent: 100,
+      duration: 0.5,
+      ease: "back.out(1)",
+      stagger: { amount: 0.2 },
+    },
+    "75%"
+  );
+
   animateText(
     "[words-slide-up-less]",
     ".word",
